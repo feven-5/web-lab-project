@@ -1,0 +1,95 @@
+* {
+  margin: auto;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
+h1 {
+  text-align: center;
+  background: #d9eed9;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+ul {
+  margin: 20px;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding: 15px;
+}
+
+li a {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+section {
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-weight: 600;
+  color: black;
+  padding: 15px;
+}
+
+.Section {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, auto) repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-gap: 30px;
+  margin: auto;
+  margin: 30px;
+}
+
+.title1,
+.title2,
+.title3 {
+  box-shadow: 3px 3px 15px rgb(185, 183, 183);
+  border-radius: 5px;
+  text-align: center;
+  color: darkgray;
+  padding-bottom: 30px;
+  height: 100%;
+}
+
+img {
+  width: 90%;
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.paragraph {
+  width: 90%;
+}
+
+.price {
+  color: #76d488;
+  margin-top: 15px;
+}
+
+.name {
+  text-align: center;
+  background-color: #124314;
+  padding: 15px;
+  color: white;
+}
+
+@media (max-width : 600px) {
+  .Section {
+    display: block;
+  }
+}
